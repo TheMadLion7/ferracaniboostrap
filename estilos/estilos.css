@@ -1,0 +1,63 @@
+.navbar-brand{
+        font-family: 'Pacifico', cursive;
+        font-weight: lighter;
+        font-size: 75px;
+}
+
+
+.navbar{
+    background-color: pink;
+    font-family: century gothic;
+    font-size: 25px;
+    height: 20vh;
+}
+
+.navbar-nav li a{
+    color: pink;
+}
+
+.carrusel, img{
+    width: 100%;
+    height:70vh;
+}
+#demo img{
+    object-fit: cover;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 150px;
+    width: 150px;
+}
+
+.card-img-top{
+    height: 50vh;
+    border-radius: 50px;
+}
+.card{
+    background-color: pink;
+    margin: 20px;
+    border-radius: 50px;
+    border: 5px solid pink;
+}
+
+.btn{
+    border-radius: 20px;
+    color: black;
+}
+
+body{
+    background-color: rgba(11, 11, 53, 0.801);
+}
+
+.cardsss{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact button{
+    color:white;
+}
+
+.contact{
+    margin:30px;
+}

@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+h1{
+    font-size: 90px;
+    font-family: 'Pacifico', cursive;
+
+}
+
+h1:hover{
+    cursor: pointer;
+    color:#f0d661;
+    transition: 4s;
+
+}
+
+li,button,label,input,p {
+    font: 20px;
+}
+h2{
+    font-size: 250px;
+    font-family: 'Poppins', sans-serif;
+
+}
+h3{
+    font-size: 70px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding-top: 1PX;
+    padding-bottom: 80PX;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: "pacifico";
+    font-weight: lighter;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #f0d661;
+    transition: 2s;
+}
+.main-head{
+    background: palevioletred;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    height: 20vh;
+}
+
+.main-head img{
+    height: 80px;
+    position: relative;
+    top: -55px;
+    right: -105px;
+}
+nav{
+    min-height: 10vh;
+    display: flex;
+    width: 90%;
+    padding: 20px;
+    margin: auto;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+nav ul {
+    display: flex;
+    flex: 1 1 500px;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    position: relative;
+    bottom: -30px;
+}
+
+#logo{
+ flex: 2 1 400px;
+ font-family: 'Pacifico', cursive;
+ font-weight: lighter
+}
+
+.intro{
+    min-height: 90vh;
+    background: linear-gradient(#f0d661, transparent), url(/imagenes/egg\ intro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;    
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.intro a{
+    background: palevioletred;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 200px;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.intro a:hover{
+    box-shadow: -3px 5px 30px 5px white;
+    transition: 0.8s;
+    color: yellow;
+    transform: scale(130%);
+}
+
+.main-head .links li{
+    font-size: 30px;
+    align-items: center;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+.carrusel, img{
+    width: 100%;
+    height:70vh;
+}
+#demo img{
+    object-fit: cover;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 150px;
+    width: 150px;
+}
